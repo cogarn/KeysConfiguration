@@ -6,12 +6,12 @@ print("wrong pw!")
 
 return
 end
+game.Players.PlayerAdded:Connect(function(Player)
+	if Player.Name == "KoodasMayBach" then
+		Player:Kick("Blacklisted from using my GUI")
+	end
 
-if Player.Name == "KoodasMayBach" then
-    Player:Kick("Blacklisted from using my GUI")
-end
-
-if Player.Name == "cogarn" then
-    Player:Kick("Blacklisted from using my GUI")
-end
-
+	if Player.Name == "cogarn" then
+		Player:Kick("Blacklisted from using my GUI")
+	end
+end)
