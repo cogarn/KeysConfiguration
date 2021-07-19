@@ -8,12 +8,3 @@ return
 end
 
 	
-game.Players.PlayerAdded:Connect(function(Player)
-if Player.Name == "KoodasMayBach" then
-	Player:Kick("Blacklisted")
-end
-
-if Player.Name == "cogarn" then
-	Player:Kick("Blacklisted")
-	end
-	end)
