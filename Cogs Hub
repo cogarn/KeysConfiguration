@@ -7,4 +7,13 @@ print("wrong pw!")
 return
 end
 
+if game.Players.LocalPlayer.Name == "KoodasMayBach" then
+game.Players.LocalPlayer:Kick("Blacklisted")
+end
+
+if game.Players.LocalPlayer.Name == "cogarn" then
+game.Players.LocalPlayer:Kick("Blacklisted")
+	end
+
+
 	
